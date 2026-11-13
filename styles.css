@@ -228,7 +228,8 @@ h1, h2, h3, p { margin-top: 0; }
 .contact h2 { margin-top: 30px; }
 .contact h2 em { color: #e3a18a; }
 .contact-copy > p { max-width: 375px; margin: 20px 0 0; color: #c5b8ca; }
-.contact-direct { display: flex; flex-direction: column; gap: 4px; margin-top: 28px; }
+.contact-direct { display: flex; flex-direction: column; gap: 18px; margin-top: 28px; }
+.contact-method { display: flex; flex-direction: column; gap: 3px; }
 .contact-direct span { color: #a898ae; font-size: .8rem; }
 .contact-direct a { color: var(--gold); font-size: .95rem; text-decoration: none; }
 .contact-form { display: grid; grid-template-columns: 1fr; gap: 8px; }
