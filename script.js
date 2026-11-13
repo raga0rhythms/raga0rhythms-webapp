@@ -46,10 +46,10 @@ if (contactForm instanceof HTMLFormElement) {
       `From: ${name}`,
       `Reply to: ${email}`,
     ].join("\n");
-    const mailto = `mailto:hello@raga0rhythms.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailto = `mailto:raga0rhythms@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     if (formNote) {
-      formNote.textContent = "Your email app should open with the enquiry ready to send. If it does not, email hello@raga0rhythms.com directly.";
+      formNote.textContent = "Your email app should open with the enquiry ready to send. If it does not, email raga0rhythms@gmail.com directly.";
     }
     window.location.href = mailto;
   });
